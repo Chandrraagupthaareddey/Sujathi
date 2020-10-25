@@ -1,0 +1,82 @@
+/*------------------Global css--------------------------------*/
+body{margin:0; padding:0; font-size:12px; font-family:arial; background: url(../images/back.jpg) fixed; color:#e2e7ea; }
+ul ,li{ margin:0; padding:0; list-style-type:none;}
+img{border:none;}
+h1, h2, h3, h4, h5, h6, p, form, input, { margin:0; padding:0px;}
+#page{width:980px; margin:0 auto; background:#ffffff; padding:0px 0px 10px 0px;}
+.clear{clear:both;}
+
+/*--------------------------header css-------------------------*/
+#header{width:980px; margin:0 auto; height:76px;}
+.logo{width:344px; float:left; padding:5px 0px 0px 25px;}
+.follow-us-conteiner{float:right; padding:24px 25px 0px 0px;}
+.follow-us-conteiner table tr td{ text-align:right;}
+.follow-us-conteiner a:link, .follow-us-conteiner a:visited, .follow-us-conteiner a:active{color:#080808; text-decoration:none;}
+.follow-us-conteiner a:hover{color:#080808; text-decoration:underline;}
+
+/*----------------------------------Nav css---------------------------*/
+.navwrap { float: left; width: 960px; height: 35px; }
+.ddcolortabs {margin-right: 0px; height: 36px; line-height: 36px;   font-family: Arial, Helvetica, sans-serif; font-weight:bold;  font-size: 13px;}
+.ddcolortabs a {display: block; background: url(../images/menubg.jpg) no-repeat right top; padding-right: 18px; text-decoration: none; color: #fff;}
+.ddcolortabs a span {background: url(../images/menubg.jpg) no-repeat left top; display: block; padding-left: 18px;}
+.ddcolortabs a:hover, .ddcolortabs a.active { display: block; background: url(../images/menubg.jpg) no-repeat right -36px; padding-right: 18px; text-decoration: none; color: #8ad0f5;}
+.ddcolortabs a:hover span, .ddcolortabs a.active span {background: url(../images/menubg.jpg) no-repeat left -36px; display: block; padding-left: 18px;}
+.dropmenudiv_a { visibility: hidden; text-transform: capitalize; font: 13px; position: absolute; text-align: left; }
+.dropmenudiv_a a { display: block; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size: 13px; background: #80c7ec; width: 305px; color: #154681; padding: 9px; border-bottom: 0 solid #6fb6e1; border-bottom-width: 1px; text-decoration: none }
+.dropmenudiv_a a:hover { display: block; background: #2b67a0; color: #87ccf2; text-decoration: none }
+
+/*----------------------------------Main body css---------------------------*/
+#index-main-container{padding:20px 0px 40px 0px; width:960px; margin:0 auto; font-size:13px; color:#414042;}
+#index-main-container1{padding:30px 0px 40px 0px; width:960px; margin:0 auto; font-size:13px; color:#414042;}
+.left-conatiner{float:left; width:200px; padding:0px 40px 0px 40px;}
+.center-conatiner{float:left; width:260px; height:auto; padding:0px 40px 0px 40px; background:url(../images/divider.jpg) left top no-repeat;}
+.heading{font-family:"Myriad Pro"; color:#ea741f; font-size:18px; padding:0px 0px 0px 0px;}
+.thumb-images{padding:30px 0px 24px 0px;}
+.right-conatiner{float:left; width:260px; padding:0px 40px 0px 40px;background:url(../images/divider.jpg) left top no-repeat;}
+.solutions{color:#1bb1dc;}
+.purple{color:#2f3762;}
+.follow-us{color:#727272;}
+.more{background:url(../images/bullets.jpg) no-repeat left center; padding:10px 0px 0px 15px;float:right;}
+.more a:link, .more a:active,  .more a:visited{color:#38416c; font-family:"Myriad Pro"; font-size:14px; text-decoration:none;}
+.more a:visited{color:#38416c; font-family:"Myriad Pro"; font-size:14px; text-decoration:underline; }
+ul li{padding:4px 0px 0px 0px;}
+ul li a:link, ul li a:active,  ul li a:visited{color:#38416c; font-family:"Myriad Pro"; font-size:14px; text-decoration:none; background:url(../images/bullets.jpg) no-repeat left center; padding:0px 0px 0px 15px;float:right;}
+ul li a:hover{color:#30b0a9; font-family:"Myriad Pro"; font-size:14px; text-decoration:underline; background:url(../images/bullets.jpg) no-repeat left center; padding:0px 0px 0px 15px;float:right;}
+
+.detail{font-size:13px; line-height:17px;}
+
+.text{float:left; width:680px; padding:0px 40px 0px 40px; color:#414042; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:17px; background:url(../images/divider1.jpg) right top no-repeat;}
+.text1{float:left; width:890px; padding:0px 40px 0px 40px; color:#414042; font-family: Arial, Helvetica, sans-serif; font-size:13px; line-height:17px; }
+
+/*----------------------------------------Slide banner CSS---------------------------------*/
+.banner{ width:979px; margin:0 auto; height:261px; padding:2px 0px 0px 0px;}
+#content{ position:relative;}
+.slide-box{ width:960px;background:#333; height:322px;}
+#slider { }
+#slider ul, #slider li {margin:0;padding:0;list-style:none;}
+#slider li {width:960px;height:322px;overflow:hidden;}
+.slide1-txt{ margin:0; padding:0 0 26px 0; }
+.slide1-logo{ margin:0; padding:10px 0 0 0;}
+#slider p{ line-height:20px; margin:0; padding:0; color:#fff; font-size:18px;}
+#slide1{ background:url(../images/homebanner.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+#slide2{ background:url(../images/home-banner2.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+#slide3{ background:url(../images/home-banner3.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+#slide4{ background:url(../images/home-banner4.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+#slide5{ background:url(../images/home-banner5.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+#slide6{ background:url(../images/home-banner6.jpg) no-repeat left top; width:960px; height:322px; padding:35px 0 0 50px;}
+
+/*---------------------Distributor css-------------------------------*/
+#marqueecontainer{position: relative; width: 200px;height: 226px;overflow: hidden;border: 0px solid orange;padding: 12px 0px 0px 0px;padding-left: 0px; top:10px; bottom:10px; text-align:center; }
+#marqueecontainer p{margin:0px; padding:0px;}
+
+/*-------------------------------footer css------------------------*/
+#footer-container{height:90px; width:960px; margin:0 auto;}
+#footer{font-size:13px;color:#422874; background:#e2e7ea; font-family:arial; padding:15px 0px 0px 20px; height:79px; width:920px;}
+#footer a{color:#422874; text-decoration:none;}
+#footer a:hover{color:#422874; text-decoration:underline;}
+.footer-link{float:left; width:650px; line-height:20px;}
+.footer-copyright{float:left; width:265px; line-height:20px;} 	
+.footer-contact{float:left; width:650px; padding:10px 0px 0px 0px;}
+.designed-by{float:left; width:265px; padding:20px 0px 0px 0px;}
+
+
